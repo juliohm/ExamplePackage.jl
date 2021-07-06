@@ -2,5 +2,6 @@ using ExamplePackage
 using Test
 
 @testset "ExamplePackage.jl" begin
-    # Write your tests here.
+    @test double(2) == 4
+    @test double(-1) == -2
 end
