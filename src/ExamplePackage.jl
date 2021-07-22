@@ -15,10 +15,10 @@ end
 Return imaginary number given `a` and `b`.
 """
 function imaginary(a, b)
-    return a + b * im
+    return a + 2 * b * im
 end
 
 # public api
-export double, imaginary
+export double
 
 end
